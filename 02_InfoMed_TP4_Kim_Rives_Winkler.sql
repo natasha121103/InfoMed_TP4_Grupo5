@@ -11,4 +11,4 @@ SELECT
 FROM Pacientes p;
 
 -- En otro query debería poner lo siguiente para ver que me da el query 2
--- SELECT * FROM vista_paciente_edad
+-- SELECT * FROM vista_pacientes_edad
