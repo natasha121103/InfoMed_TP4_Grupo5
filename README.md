@@ -28,9 +28,9 @@
 
 ## Descripción del trabajo
 
-Este repositorio contiene el Trabajo Práctico N.º 4, dedicado al modelado de bases de datos relacionales, la resolución de consignas mediante SQL y el manejo de versiones con GitHub.
+Este repositorio contiene el Trabajo Práctico N.º 4, en donde se desarrollo el modelado de bases de datos relacionales, la resolución de consignas mediante SQL y el manejo de versiones con GitHub.
 
-En la **Actividad 1** se diseña una base de datos para un centro de salud: se identifican entidades, atributos y relaciones; se desarrolla el diagrama entidad-relación en notación de Chen y su correspondiente modelo relacional en notación Crow's Foot; y se analizan aspectos de normalización.
+En la **Actividad 1** se diseña una base de datos para un centro de salud. en donde se identifican entidades, atributos y relaciones, y se desarrolla el diagrama entidad-relación en notación de Chen y su correspondiente modelo relacional en notación Crow's Foot.
 
 En la **Actividad 2** se resuelven consignas de SQL y se documentan las consultas y sus resultados.
 
@@ -39,7 +39,7 @@ En la **Actividad 2** se resuelven consignas de SQL y se documentan las consulta
 - **[Informe completo del TP4](InfoMed_TP4_Kim_Rives_Winkler.md):** desarrollo de las actividades y respuestas a las consignas.
 - **[Diagrama conceptual (Chen)](diagramas/Conceptual_Chen.png):** representación de las entidades, atributos y relaciones.
 - **[Diagrama relacional (Crow's Foot)](diagramas/Relacional_Crows_Foot.png):** tablas, claves y cardinalidades.
-- **Archivos SQL:** scripts numerados ubicados en la raíz del repositorio.
-- **[Resultados](resultados/):** capturas de las consultas, organizadas por número de consigna.
+- **Archivos SQL:** queries numeradas que resulven las consignas de la Actividad 2.
+- **[Resultados](resultados/):** capturas de los resultados de las queries, organizadas por número de consigna.
 
 **Fecha de entrega:** 19/10/2026.
