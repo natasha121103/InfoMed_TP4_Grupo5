@@ -432,16 +432,17 @@ ORDER BY cantidad_recetas DESC;
 
 ### Consigna 13
 
-Se pueden conocer las especialidades que cuentan con más de dos médicos al unir la tabla Medicos con la tabla Especialidades. De esta forma se pueden agrupar a los médicos por especialidad para contabilizarlos con COUNT. Al igual que en la consigna 11, la condición sobre el conteo se expresó con HAVING, ya que depende del resultado del agrupamiento, en este caso COUNT(m.especialidad_id) > 2. Cumplen la condición cuatro especialidades: Cardiología, con cuatro médicos, y Clínica General, Dermatología y Pediatría, con tres médicos cada una.
+Se pueden conocer las especialidades que cuentan con más de dos médicos al unir la tabla Medicos con la tabla Especialidades. De esta forma se pueden agrupar a los médicos por especialidad para contabilizarlos con COUNT. Al igual que en la consigna 11, la condición sobre el conteo se expresó con HAVING, ya que depende del resultado del agrupamiento, en este caso COUNT(m.id_medico) > 2. Cumplen la condición cuatro especialidades: Cardiología, con cuatro médicos, y Clínica General, Dermatología y Pediatría, con tres médicos cada una.
 
 ```sql
-SELECT e.id_especialidad,
+SELECT
+    e.id_especialidad,
     e.nombre,
-    COUNT(m.especialidad_id) AS "Cantidad Med"
+    COUNT(m.id_medico) AS "Cantidad Med"
 FROM Medicos m
 INNER JOIN Especialidades e ON e.id_especialidad = m.especialidad_id
 GROUP BY e.id_especialidad, e.nombre
-HAVING COUNT(m.especialidad_id) > 2
+HAVING COUNT(m.id_medico) > 2;
 ```
 
 ![Resultado de la query 13](resultados/Query13.png)
