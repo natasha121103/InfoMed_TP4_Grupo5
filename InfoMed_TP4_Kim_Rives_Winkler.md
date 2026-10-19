@@ -143,7 +143,7 @@ Registra los datos de cada profesional, identificado mediante ID_medico (PK). In
 
 **Ciudad y Especialidad**
 
-Las tablas Ciudad y Especialidad funcionan como catálogos de referencia, cuyos valores se encuentran previamente definidos. Al registrar un paciente o médico, se selecciona un valor existente del catálogo en lugar de ingresarlo como texto libre, evitando diferencias de escritura y facilitando el análisis estadístico. Además, se establece una restricción de unicidad (UNIQUE) sobre el atributo ‘nombre’ de cada catálogo para impedir registros duplicados.
+Las tablas Ciudad y Especialidad funcionan como catálogos de referencia, cuyos valores se encuentran previamente definidos. Al registrar un paciente o médico, se selecciona un valor existente del catálogo en lugar de ingresarlo como texto libre, evitando diferencias de escritura y facilitando el análisis estadístico.
 
 **Consulta**
 
@@ -159,7 +159,7 @@ Constituye un catálogo de los medicamentos y demás indicaciones que pueden pre
 
 **Condición**
 
-Almacena las enfermedades o condiciones clínicas que pueden diagnosticarse o motivar una prescripción. Cada registro posee un identificador propio (ID_condicion, PK), una descripción y un código SNOMED CT. Al igual que en Tratamiento, la descripción es obligatoria y el código SNOMED admite valores nulos, pero debe ser único entre los registros que efectivamente poseen uno. Esta organización permite utilizar conceptos clínicos controlados para realizar estadísticas y seguimiento epidemiológico, evitando depender exclusivamente de descripciones escritas en texto libre.
+Almacena las enfermedades o condiciones clínicas que pueden diagnosticarse o motivar una prescripción. Cada registro posee un identificador propio (ID_condicion, PK), una descripción y un código SNOMED CT. Al igual que en Tratamiento, la descripción es obligatoria y el código SNOMED admite valores nulos, pero debe ser único entre los registros que poseen uno. Esta organización permite utilizar conceptos clínicos controlados para realizar estadísticas y seguimiento epidemiológico, evitando depender exclusivamente de descripciones escritas en texto libre.
 
 **MedicoEspecialidad**
 
