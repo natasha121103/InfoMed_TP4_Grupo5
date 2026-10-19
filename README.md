@@ -30,7 +30,7 @@
 
 Este repositorio contiene el Trabajo Práctico N.º 4, en donde se desarrollo el modelado de bases de datos relacionales, la resolución de consignas mediante SQL y el manejo de versiones con GitHub.
 
-En la **Actividad 1** se diseña una base de datos para un centro de salud. en donde se identifican entidades, atributos y relaciones, y se desarrolla el diagrama entidad-relación en notación de Chen y su correspondiente modelo relacional en notación Crow's Foot.
+En la **Actividad 1** se diseña una base de datos para un centro de salud, en donde se identifican entidades, atributos y relaciones, y se desarrolla el diagrama entidad-relación en notación de Chen y su correspondiente modelo relacional en notación Crow's Foot.
 
 En la **Actividad 2** se resuelven consignas de SQL y se documentan las consultas y sus resultados.
 
